@@ -3,8 +3,9 @@
 	<html>
 		<head>
 			<title>Sophia's Portfolio</title>
-			<link rel="stylesheet" type="text/css" href=".reset.css">
+			<link rel="stylesheet" type="text/css" href="reset.css">
 			<link rel="stylesheet" type="text/css" href="style.css">
+			<meta name="referrer" content="origin" />
 		</head>
 		<body>
 			<header>
@@ -17,18 +18,22 @@
 					</div>
 				</div>
 			</header>
-	
+		
 			<div class="container">
 				<div id="aboutme">
-					<h2>About Me</h2>
+					<h2>Contact</h2>
 					<hr>
-					<img src="cute-koala.jpg" class="img">
-					<p>
-						Bacon ipsum dolor amet venison pork loin frankfurter, short ribs tenderloin picanha ground round jerky salami porchetta. Bacon alcatra meatball, ham t-bone corned beef picanha pork chop swine. Spare ribs venison prosciutto pork, strip steak kevin drumstick. Shoulder prosciutto rump, cupim leberkas turducken chuck tri-tip pork chop landjaeger.
-                    </p>
-					<p>
-					Kielbasa picanha short loin fatback, andouille tongue rump. Biltong pork chop rump ham hock, salami ham strip steak pork belly porchetta short loin shoulder doner shank. Biltong chicken flank bresaola picanha. Turkey frankfurter pork belly tongue cupim meatloaf leberkas. Flank ground round boudin ham. Burgdoggen swine prosciutto bacon tenderloin pork chop alcatra cow pork belly biltong.
-				    </p>
+				<form method="POST" action="http://formspree.io/sophia.sheref@gmail.com">
+					<h3 class="form">Name</h3>
+                <input type="text" name="Name" placeholder="enter your Name" class="contact">
+                <br>
+                <h3 class="form">Email</h3>
+                <input type="text" name="Email" placeholder="enter your Email" class="contact">
+                <br>
+                <h3 class="form">Message</h3>
+                <textarea name="message" placeholder="enter your message" class="contact"></textarea>
+                <button type="submit">Submit</button>
+                </form>
 				</div>
 			
 				<div id="connect">
